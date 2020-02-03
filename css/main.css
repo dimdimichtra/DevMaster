@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: rgb(255, 131, 131);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  display:flex;
+  flex-direction: row;
+}
