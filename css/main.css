@@ -11,4 +11,8 @@ header {
 nav {
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
+}
+.button {
+  background: #6292c2;
 }
