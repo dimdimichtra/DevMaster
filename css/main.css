@@ -2,17 +2,25 @@
   margin: 0;
   padding: 0;
 }
+body
+{
+  height: 1024px;
+}
 header {
   background: rgb(255, 131, 131);
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  height: 160px;
 }
 nav {
   display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.button {
-  background: #6292c2;
+footer { 
+  background: rgb(227, 152, 250) ;
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+  height: 160px;
 }
